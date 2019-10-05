@@ -1,0 +1,42 @@
+#fakebook {
+color: #99ccff;
+background-color: black;
+padding: 50px;
+width: 600px;
+}
+#blau {
+color: white;
+background-color: black;
+}
+
+#bild2{
+   width: 200px;
+   margin: 10px 10px 10px 220px;
+
+}
+
+.eigenschaften {
+background-color: #99ccff;
+  width: 400px;
+  border: 5px dotted black;
+  padding: 50px;
+  margin: 10px;
+}
+
+th {
+    color: #99ccff;
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+}
+
+td {
+color: black;
+background-color: #99ccff;
+padding: 10px 10px 10px 10px;
+
+table {
+width: 400px;
+margin: 0 auto;
+
+}
+

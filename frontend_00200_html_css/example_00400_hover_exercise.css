@@ -1,0 +1,16 @@
+        /*
+            Create styles for hovering ver a div with color change
+
+      */
+
+
+#hallo {
+background-color: lightgrey;
+width: 100px;
+height: 100px;
+
+}
+
+#hallo:hover {
+background-color: blue;
+}
