@@ -2,9 +2,203 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Wanderreisen</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+          href="homework.css"
+          type="text/css">
 </head>
 <body>
-$END$
+<div class="container-fluid">
+<nav class="navbar navbar-expand-lg style="background-color: #58ACFA;"">
+ <a class="navbar-brand" href="#">
+    <img src="GitHub-Mark.png" width="30" height="30" alt="">
+  </a>
+    <a class="navbar-brand" href="#">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Reisen <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Natur</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Wanderreisen
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Österreich</a>
+          <a class="dropdown-item" href="#">Europa</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Übersee</a>
+        </div>
+      </li>
+          </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="landscape1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="landscape2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="landscape3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <h4><p>Austria</p></h4>
+      <img src="austria.jpg" class="d-block w-100" alt="...">
+          </div>
+    <div class="col-sm">
+    <h4><p>Switzerland</p></h4>
+      <img src="schweiz.jpg" class="d-block w-100" alt="...">
+          </div>
+    <div class="col-sm">
+      <h4><p>Germany</p></h4>
+      <img src="schweiz.jpg" class="d-block w-100" alt="...">
+          </div>
+  </div>
+</div>
+  <div class="container">
+  <div class="row">
+    <div class="col">
+     <h5><p>Online Anfrage</p></h5>
+      <form id="anfrage">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Vor- und Nachname</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Max Mustermann">
+  </div>
+        <div class="form-group">
+    <label for="exampleFormControlInput2">Telefonnummer</label>
+    <input type="number" class="form-control" id="exampleFormControlInput2" placeholder="0123456">
+  </div>
+         <div class="form-group">
+    <label for="exampleFormControlInput3">E-Mail</label>
+    <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="max.mustermann@email.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Datum</label>
+    <input type="date" class="form-control" id="exampleFormControlSelect1">
+          </input>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Ihre Anfrage</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+</form>
+    </div>
+    <div class="col">
+      <h5><p>Termine</p></h5>
+      <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Tage</th>
+      <th scope="col">Öffnungszeiten</th>
+         </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Montag - Freitag</th>
+      <td>09:00 bis 19:00 Uhr</td>
+    </tr>
+    <tr>
+      <th scope="row">Samstag</th>
+      <td>09:00 bis 19:00 Uhr</td>
+
+    </tr>
+    </tbody>
+</table>
+    </div>
+  </div>
+    </div>
+  <div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Frage Nr. 1
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        Platzhaltertext
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Frage Nr. 2
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+       Platzhaltertext
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Frage Nr. 3
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        Platzhaltertext
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
 </body>
 </html>
