@@ -3,3 +3,24 @@ padding: 20px;
 margin: 40px;
 
 }
+.btn-outline-success {
+    color: white;
+    border-color: white;
+}
+
+.btn-outline-success:hover {
+    color: black;
+    border-color: white;
+    background-color: white;
+}
+
+#background {
+background-color:#F4F6F6;
+}
+
+.centered {
+margin: 0 auto;
+width: 120px;
+}
+
+
