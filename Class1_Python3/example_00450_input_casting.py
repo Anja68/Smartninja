@@ -2,7 +2,7 @@ entry = input("Enter a number: ")
 
 my_number = float(entry)
 
-print("You entered {}".format(my_number))
+print(f"You entered {my_number}")
 
 print(type(my_number))
 

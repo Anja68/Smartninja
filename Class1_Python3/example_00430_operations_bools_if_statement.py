@@ -1,6 +1,6 @@
 is_waiting = False
-has_time = True
-has_time2 = False
+has_time = False
+has_time2 = True
 
 # the first condition must be an "if"!
 

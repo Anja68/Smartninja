@@ -2,12 +2,12 @@
 
 # define 2 variable and give them the values 2 and 10, then calculate the result of the division 2/10.
 # print the result
-print("division 2/10: ")
+var1 = 2
+var2 = 10
+
 # write your code here
-a = 2
-b = 10
-ergebnis = 2/10
-print(ergebnis)
+result = var1 / var2
+print(result)
 
 
 
@@ -15,16 +15,25 @@ print(ergebnis)
 
 # save your first name and last name as string, and concat them to 1 variable,
 # and print the result
-print("printing first name and last name as strings: ")
+
 # write your code here
-first = "Felix"
-last = "Stich"
-print(first + " " + last)
+var3 = "Anja"
+var4 = "Leherbauer"
+name = var3 + " " + var4
+print(name)
+print(var3, var4)
+
 
 
 # Task 3
 
 # divide a number by 0, what happens?
-print("divide a number by '0' ")
+
 # write your code here
-print()
+
+
+try:
+    1/2.0
+    print("success")
+except:
+    print("tried to divide by zero, please stop")

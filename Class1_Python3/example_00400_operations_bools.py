@@ -1,7 +1,7 @@
 #print True
 #print False
 # conditionals
-small_number = 100.0
+small_number = 1
 big_number = 100
 
 print(small_number > big_number)             # False
