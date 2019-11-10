@@ -5,7 +5,7 @@
 a = 5
 b = 10
 if a < b:
-    print ("bigger")
+    print("bigger")
 elif b > a:
     print(smaller)
 else:
@@ -20,6 +20,6 @@ if age < 2:
     print("baby")
 elif 2 < age < 18:
     print("kid")
-else :
+else:
     print("adult")
 

@@ -1,0 +1,1 @@
+{"Size": "S", "Colour": "Blue", "Type": "T-shirt", "Brand": "H&M"}

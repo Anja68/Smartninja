@@ -27,5 +27,7 @@ elif operator == "*":
 else:
     print ("Falsche Eingabe")
 
+# Auch mit result = None möglich, so wird kein Fehler ausgegeben sondern None, falls der User falsche Eingaben macht
+
 
 
